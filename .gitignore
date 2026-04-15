@@ -1,4 +1,5 @@
 node_modules/
 dev/
+dist/
 package-lock.json
 .qwen/
