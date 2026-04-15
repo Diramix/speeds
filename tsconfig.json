@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": ["DOM", "ES2017"],
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "noUncheckedSideEffectImports": true,
+        "moduleDetection": "force",
+        "skipLibCheck": true,
+        "module": "ESNext",
+        "moduleResolution": "bundler"
+    }
+}

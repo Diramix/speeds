@@ -1,0 +1,33 @@
+{
+    "name": "speeds",
+    "author": "diram1x",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "dev": "ymtm dev",
+        "build": "ymtm build",
+        "build:nextmusic": "ymtm build nextmusic",
+        "build:web": "ymtm build web"
+    },
+    "build": {
+        "src": "src",
+        "targets": [
+            "nextmusic",
+            "web"
+        ]
+    },
+    "nextmusic": {
+        "tarGz": {
+            "artifactName": "${addon.name}_${addon.version}_nm.tar.gz"
+        }
+    },
+    "web": {
+        "onefile": {
+            "artifactName": "${addon.name}_${addon.version}_web.user.js"
+        }
+    },
+    "devDependencies": {
+        "@diram1x/ymtm": "^3.1.0",
+        "typescript": "^6.0.2"
+    }
+}
