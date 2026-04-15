@@ -22,6 +22,7 @@
         }
     },
     "web": {
+        "icon": "https://github.com/Diramix/speeds/blob/main/src/assets/branding/icon.webp?raw=true",
         "onefile": {
             "artifactName": "${addon.name}_${addon.version}_web.user.js"
         }

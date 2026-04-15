@@ -2,7 +2,6 @@
     "name": "speeds",
     "image": "image.png",
     "banner": "banner.png",
-    "libraryLogo": "",
     "author": ["diram1x"],
     "description": "Allows changing the speed of playing tracks.",
     "version": "1.0.0",
